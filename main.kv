@@ -1,0 +1,24 @@
+<MainLayout>:
+    orientation: "vertical"
+    padding: 20
+    spacing: 10
+
+    TextInput:
+        id: soil_input
+        hint_text: "Enter soil type"
+
+    TextInput:
+        id: temp_input
+        hint_text: "Enter temperature"
+
+    TextInput:
+        id: humidity_input
+        hint_text: "Enter humidity"
+
+    Button:
+        text: "Recommend Crop"
+        on_press: root.recommend_crop()
+
+    Label:
+        id: result_label
+        text: ""

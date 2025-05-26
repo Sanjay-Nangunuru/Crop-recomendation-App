@@ -1,0 +1,5 @@
+temperature,humidity,soil_type,crop
+30,80,loamy,Rice
+25,60,sandy,Millet
+20,70,clay,Wheat
+28,85,loamy,Sugarcane
